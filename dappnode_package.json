@@ -1,5 +1,5 @@
 {
-  "name": "uniswap",
+  "name": "uniswap.dnp.dappnode.eth",
   "version": "1.0.0",
   "description": "Download, build and run the Uniswap frontend from DappNode",
   "type": "service",
