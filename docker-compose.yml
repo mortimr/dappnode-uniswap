@@ -4,3 +4,5 @@ services:
     build: .
     image: "uniswap.public.dappnode.eth:1.0.0"
     restart: unless-stopped
+    ports:
+      - "80/tcp"

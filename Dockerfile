@@ -8,6 +8,6 @@ RUN apk add --no-cache git nodejs npm yarn python3 \
 
 WORKDIR /usr/src/app
 
-EXPOSE 8080
+EXPOSE 80
 
-ENTRYPOINT python3 -m http.server 8080 --directory ./build
+ENTRYPOINT python3 -m http.server 80 --directory ./build
