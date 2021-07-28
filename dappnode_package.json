@@ -8,13 +8,6 @@
   "links": {
     "homepage": "https://github.com/Uniswap/uniswap-interface"
   },
-  "exposable": [
-    {
-      "name": "Uniswap App",
-      "description": "Uniswap Web App",
-      "serviceName": "uniswap",
-      "port": 80
-    }
-  ],
-  "license": "MIT"
+  "license": "MIT",
+  "mainService": "uniswap"
 }
