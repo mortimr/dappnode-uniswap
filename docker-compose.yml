@@ -1,0 +1,6 @@
+version: "3.4"
+services:
+  uniswap.public.dappnode.eth:
+    build: .
+    image: "uniswap.public.dappnode.eth:1.0.0"
+    restart: unless-stopped
